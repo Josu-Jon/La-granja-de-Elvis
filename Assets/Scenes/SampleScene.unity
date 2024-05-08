@@ -593,89 +593,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2023883073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &22973732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 22973733}
-  - component: {fileID: 22973735}
-  - component: {fileID: 22973734}
-  m_Layer: 0
-  m_Name: Quad
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &22973733
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 22973732}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1251802024}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &22973734
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 22973732}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9ddb41cc68095b641a1142a5eb433344, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &22973735
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 22973732}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &28147478
 GameObject:
   m_ObjectHideFlags: 0
@@ -4905,7 +4822,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286595720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.962}
+  m_LocalPosition: {x: 0, y: 0, z: -1.8415164}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4914,7 +4831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.809, y: 0}
+  m_AnchoredPosition: {x: -0.66400003, y: 0}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286595722
@@ -5010,7 +4927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479256, guid: 220c818457a8d2441bf84edb4edee095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.08
+      value: 0.791
       objectReference: {fileID: 0}
     - target: {fileID: 479256, guid: 220c818457a8d2441bf84edb4edee095, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9203,6 +9120,7 @@ MonoBehaviour:
   vegetablePrefab: {fileID: 1000012087161104, guid: 8490d29919917de4ca0c5297d93090d7, type: 3}
   wateringCanvas: {fileID: 252411181}
   delay: 10
+  fruitSpawnHeightOffset: 0.5
 --- !u!1 &549904724
 GameObject:
   m_ObjectHideFlags: 0
@@ -10856,7 +10774,7 @@ Transform:
   m_GameObject: {fileID: 629336267}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.35, y: -0.56953335, z: -5.32}
+  m_LocalPosition: {x: -2.43, y: -0.56953335, z: -1.23}
   m_LocalScale: {x: 0.54038, y: 0.54038, z: 0.54038}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13265,7 +13183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.809
+      value: -0.664
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13273,7 +13191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.9544835
+      value: -1.834
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15235,7 +15153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.69
+      value: -0.621
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15243,7 +15161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.089
+      value: -3.649
       objectReference: {fileID: 0}
     - target: {fileID: 4000010819335194, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16366,19 +16284,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f235b0a4fb34bc4a80c42131b8a96e5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.01
+      value: 0.0076134996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f235b0a4fb34bc4a80c42131b8a96e5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.01
+      value: 0.0076134996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f235b0a4fb34bc4a80c42131b8a96e5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.01
+      value: 0.0076134996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f235b0a4fb34bc4a80c42131b8a96e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.321
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f235b0a4fb34bc4a80c42131b8a96e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19471,7 +19389,6 @@ Transform:
   - {fileID: 1247657313}
   - {fileID: 1735255192}
   - {fileID: 693182072}
-  - {fileID: 1251802024}
   - {fileID: 1944613270}
   - {fileID: 1162384301}
   m_Father: {fileID: 0}
@@ -21097,67 +21014,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1187230437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1251802021
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1251802024}
-  - component: {fileID: 1251802023}
-  - component: {fileID: 1251802022}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] Passthrough Window'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1251802022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251802021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3486faf62c859f24f9552101bde8d001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1251802023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251802021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blockId: 4f06f550-8209-46c8-a4c9-879a368560f6
-  instanceId: 8684acee-f41b-40d8-ad57-cbfe305ffbed
-  version: 1
---- !u!4 &1251802024
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251802021}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.639, y: 0.166, z: -1.67}
-  m_LocalScale: {x: 3.357, y: 2.4111, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 22973733}
-  m_Father: {fileID: 1155482099}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1254344353
 GameObject:
   m_ObjectHideFlags: 0
@@ -22226,6 +22082,7 @@ MonoBehaviour:
   vegetablePrefab: {fileID: 1000014111768446, guid: 2cf13a738fc434c46bda5ebf7ca44756, type: 3}
   wateringCanvas: {fileID: 286595724}
   delay: 10
+  fruitSpawnHeightOffset: 0.5
 --- !u!1 &1308636127
 GameObject:
   m_ObjectHideFlags: 0
@@ -28049,7 +27906,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713195671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.962}
+  m_LocalPosition: {x: 0, y: 0, z: -3.5219998}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28058,7 +27915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.69, y: 0}
+  m_AnchoredPosition: {x: -0.62100005, y: 0}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1713195673
@@ -35411,6 +35268,7 @@ MonoBehaviour:
   vegetablePrefab: {fileID: 1000012003911730, guid: 0adfa404918648e42a1fb073ef9010d3, type: 3}
   wateringCanvas: {fileID: 1713195675}
   delay: 10
+  fruitSpawnHeightOffset: 0.5
 --- !u!1 &2127415380
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class GrowingPlants : MonoBehaviour
     public GameObject vegetablePrefab;
     public Canvas wateringCanvas;
     public float delay = 5f;
-    public float fruitSpawnHeightOffset = 0.5f;
+    public float fruitSpawnHeightOffset = 2f;
 
     private void OnTriggerEnter(Collider other)
     {
