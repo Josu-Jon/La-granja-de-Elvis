@@ -7,7 +7,8 @@ public class GrowingPlants : MonoBehaviour
     public GameObject plant;
     public GameObject vegetablePrefab;
     public Canvas wateringCanvas;
-    public float delay = 10f;
+    public float delay = 5f;
+    public float fruitSpawnHeightOffset = 0.5f;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,8 +17,6 @@ public class GrowingPlants : MonoBehaviour
             if (plant != null)
             {
                 plant.SetActive(false);
-
-                Instantiate(vegetablePrefab, plant.transform.position, Quaternion.identity);
 
                 wateringCanvas.gameObject.SetActive(true);
                 StartCoroutine(HideCanvasAfterDelay(delay));
@@ -28,6 +27,9 @@ public class GrowingPlants : MonoBehaviour
     IEnumerator HideCanvasAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
+        Vector3 fruitSpawnPosition = plant.transform.position;
+        fruitSpawnPosition.y += fruitSpawnHeightOffset;
+        Instantiate(vegetablePrefab, fruitSpawnPosition, Quaternion.identity);
         wateringCanvas.gameObject.SetActive(false);
     }
 }
